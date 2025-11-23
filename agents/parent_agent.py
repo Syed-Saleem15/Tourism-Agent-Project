@@ -5,8 +5,9 @@ Orchestrates child agents based on user intent
 
 import re
 from typing import Dict, List, Optional
-from agents.weather_agent import WeatherAgent
-from agents.places_agent import PlacesAgent
+from .weather_agent import WeatherAgent
+from .places_agent import PlacesAgent
+
 
 
 class TourismAgent:
